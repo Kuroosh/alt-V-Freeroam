@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freeroam", "Freeroam.csproj", "{BBB0A9C4-94E1-4248-8666-9081C309AA7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBB0A9C4-94E1-4248-8666-9081C309AA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB0A9C4-94E1-4248-8666-9081C309AA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB0A9C4-94E1-4248-8666-9081C309AA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB0A9C4-94E1-4248-8666-9081C309AA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5348F20-3880-4EB4-8249-F21990F3EC11}
+	EndGlobalSection
+EndGlobal

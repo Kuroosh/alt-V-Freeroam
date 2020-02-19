@@ -1,0 +1,254 @@
+/*//----------------------------------//
+///// VenoX Gaming & Fun 2019 © ///////
+//////By LargePeach & VnX RL Crew////
+////////www.venox-reallife.com////////
+//----------------------------------//*/
+
+@font-face { font-family: 'drugs';
+             src: url('./fonts/Caviar-Dreams.ttf') format('truetype'); }
+@font-face { font-family: 'robot';
+             src: url('./fonts/Roboto-Thin.ttf') format('truetype'); }
+
+.all {
+    -ms-user-select: none; 
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    height: 100%;
+    width: 100%;
+}
+
+* {
+	user-select: none;
+    list-style: none;
+}
+
+/* Hintergrund */
+
+.back {
+    position: fixed;
+    background: rgba(15, 15, 15, 0.7);
+    width: 24.70vw;
+    height: 30.4vw;
+    left: 50%;
+    transform: translate(-50%);
+    top: 10vw;
+}
+
+/* Blauer Strich */
+
+.green_line {
+    position: fixed;
+	background: rgba(78, 117, 62, 1);
+	width: 24.70vw;
+	left: 50%;
+    transform: translate(-50%);
+	height: 0.2vw;
+	top: 10vw;
+    list-style-type: inherit;
+}
+
+/* Überschrift */
+
+.header {
+    position: fixed;
+	background: rgba(10, 10, 10, 0.6);
+	color: white;
+	font-size: 1.5vw;
+	font-family: drugs;
+	text-align: center;
+	width: 24.70vw;
+	left: 50%;
+    transform: translate(-50%);
+    top: 10.2vw;
+    padding: 0.21vw 0vw;
+    list-style-type: inherit;
+}
+
+/* Header Hintergrund */
+
+.header_background {
+    position: fixed;
+    background: rgba(15, 15, 15, 0.4);
+    width: 24.7vw;
+    left: 50%;
+    transform: translate(-50%);
+    top: 12.3vw;
+    height: 2.05vw;
+    list-style-type: inherit;
+}
+
+/* Logo */
+
+.logo {
+    position: fixed;
+    width: 1.7vw;
+    height: 1.7vw;
+    left: 38.7%;
+    transform: translate(-50%);
+    top: 10.45vw;
+}
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    background: rgba(15, 15, 15, 0.4);
+    width: 50.4vw;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40.55vw;
+    height: 0.0vw;
+}
+
+/* Trennlinien */
+
+.parting_line_1, .parting_line_2, .parting_line_3, .parting_line_4, .parting_line_5 , .parting_line_6, .parting_line_7, .parting_line_8, .parting_line_9{
+    position: fixed;
+    background: white;
+    width: 0.1vw;
+    height: 28.15vw;
+    transform: translate(-50%);
+    top: 12.35vw;
+    z-index: 1;
+    list-style-type: inherit;
+}
+
+.parting_line_1 {
+    position: fixed;
+    left: 55%;
+    transform: translate(-50%);
+}
+
+.parting_line_6 {
+    position: fixed;
+    top: 12.34vw;
+    height: 28.06vw;
+    left: 37.77%;
+    transform: translate(-50%);
+    width: 0.2vw;
+    background: rgba(10, 10, 10, 0.6);
+}
+
+.parting_line_7 {
+    position: fixed;
+    top: 12.34vw;
+    height: 28.06vw;
+    left: 62.25%;
+    transform: translate(-50%);
+    width: 0.2vw;
+    background: rgba(10, 10, 10, 0.6);
+}
+
+.parting_line_8 {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    height: 0.2vw;
+    width: 24.7vw;
+    top: 40.4vw;
+    background: rgba(78, 117, 62, 1);
+}
+
+
+.player {
+    position: absolute;
+    color: rgb(0, 105, 150);
+    text-align: center;
+    font-family: robot;
+    font-weight: bold;
+    top: 40.7vw;
+    left: 71%;
+    transform: translate(-50%);
+    letter-spacing: 0.03vw;
+}
+
+/* Namen */
+
+.userdata_header {
+	position: fixed;
+	color: white;
+	width: 9.95vw;
+	left: 40%;
+    transform: translate(-50%);
+	top: 12.3vw;
+	font-size: 1.45vw;
+	font-family: robot;
+	font-weight: bold;
+    text-align: center;
+    padding: 0.16vw 0vw;
+    list-style-type: inherit;
+}
+
+/* Ping */
+
+.Ping_header {
+	position: fixed;
+	color: white;
+	width: 3.9vw;
+	left: 57%;
+    transform: translate(-50%);
+	top: 12.3vw;
+	font-size: 1.45vw;
+	font-family: robot;
+	font-weight: bold;
+    text-align: center;
+    padding: 0.16vw 0vw;
+    list-style-type: inherit;
+}
+
+/* Namen Liste */
+
+#scoreboardplayer {
+    position: absolute;
+    color: white;
+    left: 10%;
+    transform: translate(-50%);
+    font-size: 1vw;
+    width: 10vw;
+    text-align: center;
+    line-height: 1.99vw;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    padding: inherit;
+	font-family: robot;
+}
+
+
+/* Ping Liste */
+
+#scoreboardping {
+    position: absolute;
+    color: white;
+    left: 96.4%;
+    transform: translate(-50%);
+    font-size: 1vw;
+	width: 4.2vw;
+    text-align: center;
+    line-height: 1.99vw;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    padding: inherit;
+	font-family: robot;
+}
+
+/*-------------------------------------------*/
+
+.scoreboard {
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 16.4vw;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50vw;
+    height: 20.05vw;
+    
+}
+
+.d-none {
+    display: none !important
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

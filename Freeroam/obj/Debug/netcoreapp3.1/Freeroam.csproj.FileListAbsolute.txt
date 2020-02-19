@@ -1,0 +1,12 @@
+C:\altv-server_DEBUG\resources\freeroam\Freeroam\obj\Debug\netcoreapp3.1\Freeroam.csprojAssemblyReference.cache
+C:\altv-server_DEBUG\resources\freeroam\Freeroam\obj\Debug\netcoreapp3.1\Freeroam.AssemblyInfoInputs.cache
+C:\altv-server_DEBUG\resources\freeroam\Freeroam\obj\Debug\netcoreapp3.1\Freeroam.AssemblyInfo.cs
+C:\altv-server_DEBUG\resources\freeroam\Freeroam\bin\Debug\netcoreapp3.1\Freeroam.deps.json
+C:\altv-server_DEBUG\resources\freeroam\Freeroam\bin\Debug\netcoreapp3.1\Freeroam.dll
+C:\altv-server_DEBUG\resources\freeroam\Freeroam\bin\Debug\netcoreapp3.1\Freeroam.pdb
+C:\altv-server_DEBUG\resources\freeroam\Freeroam\obj\Debug\netcoreapp3.1\Freeroam.dll
+C:\altv-server_DEBUG\resources\freeroam\Freeroam\obj\Debug\netcoreapp3.1\Freeroam.pdb
+C:\altv-server_DEBUG\resources\freeroam\Freeroam\bin\Debug\netcoreapp3.1\AltV.Net.dll
+C:\altv-server_DEBUG\resources\freeroam\Freeroam\bin\Debug\netcoreapp3.1\AltV.Net.Async.dll
+C:\altv-server_DEBUG\resources\freeroam\Freeroam\bin\Debug\netcoreapp3.1\AltV.Net.Resources.Chat.Api.dll
+C:\altv-server_DEBUG\resources\freeroam\Freeroam\obj\Debug\netcoreapp3.1\Freeroam.csproj.CopyComplete

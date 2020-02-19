@@ -1,0 +1,195 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AltV.Net/1.27.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AltV.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AltV.Net.dll": {}
+        }
+      },
+      "AltV.Net.Async/1.27.2": {
+        "type": "package",
+        "dependencies": {
+          "AltV.Net": "1.27.2",
+          "System.Threading.Channels": "4.7.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AltV.Net.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AltV.Net.Async.dll": {}
+        }
+      },
+      "AltV.Net.Resources.Chat.Api/1.27.0": {
+        "type": "package",
+        "dependencies": {
+          "AltV.Net": "1.27.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AltV.Net.Resources.Chat.Api.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AltV.Net.Resources.Chat.Api.dll": {}
+        }
+      },
+      "System.Threading.Channels/4.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AltV.Net/1.27.2": {
+      "sha512": "5+75lzV5EQWGSeKHyM5hH3b94WcVcTQ3b0vn8K8Jxvi33GPoEOJY0f2yAhV7Z95BgelMBzjbNmwDniS+2Y6Tnw==",
+      "type": "package",
+      "path": "altv.net/1.27.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "altv.net.1.27.2.nupkg.sha512",
+        "altv.net.nuspec",
+        "icon.png",
+        "lib/netcoreapp3.1/AltV.Net.dll",
+        "license.txt"
+      ]
+    },
+    "AltV.Net.Async/1.27.2": {
+      "sha512": "MOusdyMT/zmEccTaACoc0Fe+3qbfLG/viXRlFinH/JYqJQwTaIic3KmJA4F+n44tu+bhWL/SRs9MvpOs8Cuifg==",
+      "type": "package",
+      "path": "altv.net.async/1.27.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "altv.net.async.1.27.2.nupkg.sha512",
+        "altv.net.async.nuspec",
+        "icon.png",
+        "lib/netcoreapp3.1/AltV.Net.Async.dll",
+        "license.txt"
+      ]
+    },
+    "AltV.Net.Resources.Chat.Api/1.27.0": {
+      "sha512": "jmH06ZdlCAAT2Ed7FIv+CMA5TaYZMgO96Tu9AVLIe0OFcJEG1ygD/jILlxSWI5iCGHaqW4fclCGXZHt4KriN6g==",
+      "type": "package",
+      "path": "altv.net.resources.chat.api/1.27.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "altv.net.resources.chat.api.1.27.0.nupkg.sha512",
+        "altv.net.resources.chat.api.nuspec",
+        "icon.png",
+        "lib/netcoreapp3.1/AltV.Net.Resources.Chat.Api.dll",
+        "license.txt"
+      ]
+    },
+    "System.Threading.Channels/4.7.0": {
+      "sha512": "gdOOXBhtt2UpTxYJm1DRmoqNfYg5ypvhzhVt0vxKhzxXFjS81r8yIOSFsJYLRa1Jc14GBAqCnjxJstO3zBN7gg==",
+      "type": "package",
+      "path": "system.threading.channels/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.0/System.Threading.Channels.dll",
+        "lib/netcoreapp3.0/System.Threading.Channels.xml",
+        "lib/netstandard1.3/System.Threading.Channels.dll",
+        "lib/netstandard1.3/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "system.threading.channels.4.7.0.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AltV.Net >= 1.27.2",
+      "AltV.Net.Async >= 1.27.2",
+      "AltV.Net.Resources.Chat.Api >= 1.27.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\LIQUID\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\altv-server_DEBUG\\resources\\freeroam\\Freeroam\\Freeroam.csproj",
+      "projectName": "Freeroam",
+      "projectPath": "C:\\altv-server_DEBUG\\resources\\freeroam\\Freeroam\\Freeroam.csproj",
+      "packagesPath": "C:\\Users\\LIQUID\\.nuget\\packages\\",
+      "outputPath": "C:\\altv-server_DEBUG\\resources\\freeroam\\Freeroam\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\LIQUID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "AltV.Net": {
+            "target": "Package",
+            "version": "[1.27.2, )"
+          },
+          "AltV.Net.Async": {
+            "target": "Package",
+            "version": "[1.27.2, )"
+          },
+          "AltV.Net.Resources.Chat.Api": {
+            "target": "Package",
+            "version": "[1.27.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
