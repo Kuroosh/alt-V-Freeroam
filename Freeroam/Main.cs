@@ -10,6 +10,7 @@ namespace Freeroam
         public override void OnStart()
         {
             Console.WriteLine("Freeroam Started");
+            Globals.Main.OnResourceStart();
         }
 
         public override void OnStop()

@@ -12,5 +12,9 @@ namespace Freeroam.Core
             Console.WriteLine("[EXCEPTION " + FunctionName.ToUpper() + "] " + ex.StackTrace);
         }
 
+        public static void OutputDebugString(string text)
+        {
+            Console.WriteLine(DateTime.Now.Hour + " : " + DateTime.Now.Minute + " | [DEBUG-STRING] : " + text);
+        }
     }
 }
